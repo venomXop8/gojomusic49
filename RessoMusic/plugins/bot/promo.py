@@ -31,3 +31,9 @@ async def promos(client, message: Message):
         text=AMBOT,
         reply_markup=InlineKeyboardMarkup(buttons)
     )
+    await RessoMusic.send_photo(
+                chat_id,
+                photo="https://telegra.ph//file/14ec9c3ff42b59867040a.jpg",
+                caption=f"**{shayari}**",
+                reply_markup=add_buttons,
+    )
