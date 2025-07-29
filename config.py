@@ -32,15 +32,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/hkmusic/gojomusic49",
+    "https://github.com/venomxop8/gojomusic49",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHAT", "https://t.me/II_CHATS_II")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/GOJO_SUPPORT_GROUP_II")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHAT", "https://t.me/irotechlab")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/ironmanhindigming1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -81,21 +81,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/l8ds66.jpg"
+    "START_IMG_URL", "http://frozen-imageapi.lagendplayersyt.workers.dev/file/2b138928-0d2e-4fb9-922f-45dd2bc07958.jpeg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/owh3j7.jpg"
+    "PING_IMG_URL", "http://frozen-imageapi.lagendplayersyt.workers.dev/file/2b138928-0d2e-4fb9-922f-45dd2bc07958.jpeg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/6tled7.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/4dd9e2c231eaf7c290404.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/8234d704952738ebcda7f.jpg"
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/8d02ff3bde400e465219a.jpg"
-STREAM_IMG_URL = "https://telegra.ph/file/e24f4a5f695ec5576a8f3.jpg"
-SOUNCLOUD_IMG_URL = "https://telegra.ph/file/7645d1e04021323c21db9.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/76d29aa31c40a7f026d7e.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/b7758d4e1bc32aa9fb6ec.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/60ed85638e00df10985db.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/f4edfbd83ec3150284aae.jpg"
+PLAYLIST_IMG_URL = "https://iili.io/3tYLHes.jpg"
+STATS_IMG_URL = "https://iili.io/3tYLHes.jpg"
+TELEGRAM_AUDIO_URL = "https://iili.io/3tYLHes.jpg"
+TELEGRAM_VIDEO_URL = "https://iili.io/3tYLHes.jpg"
+STREAM_IMG_URL = "https://iili.io/3tYLHes.jpg"
+SOUNCLOUD_IMG_URL = "https://iili.io/3tYLHes.jpg"
+YOUTUBE_IMG_URL = "https://iili.io/3tYLHes.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://iili.io/3tYLHes.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://iili.io/3tYLHes.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://iili.io/3tYLHes.jpg"
 
 
 def time_to_seconds(time):
