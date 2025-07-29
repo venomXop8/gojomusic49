@@ -11,7 +11,7 @@ from RessoMusic.misc import sudo
 from RessoMusic.plugins import ALL_MODULES
 from RessoMusic.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
-
+from keep_alive import keep_alive
 
 async def init():
     if (
@@ -55,8 +55,9 @@ async def init():
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("RessoMusic").info("Stopping AMBOTOP Music Bot...")
+    LOGGER("RessoMusic").info("Stopping IRO Music Bot...")
 
 
 if __name__ == "__main__":
+    keep_alive()
     asyncio.get_event_loop().run_until_complete(init())
